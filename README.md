@@ -25,3 +25,9 @@ An AI system for medical transcription, NLP-based summarization, and sentiment a
 3. ```bash
    pip install "transformers[torch]"
    ```
+4.To Run
+  ```bash
+  cd physician_notetaker
+  python main.py
+  ``` 
+
