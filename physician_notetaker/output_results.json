@@ -1,0 +1,139 @@
+{
+  "Medical_NLP_Summary": {
+    "Patient_Name": "Ms. Jones",
+    "Symptoms": [
+      "Back pain",
+      "Stiffness",
+      "Head impact",
+      "Occasional backache",
+      "Neck pain",
+      "Discomfort",
+      "Trouble sleeping"
+    ],
+    "Diagnosis": [
+      "Whiplash injury",
+      "pain",
+      "whiplash injury",
+      "tenderness",
+      "anxiety",
+      "long-term damage",
+      "backaches"
+    ],
+    "Treatment": [
+      "Ten physiotherapy sessions",
+      "Painkillers",
+      "No X-rays performed"
+    ],
+    "Current_Status": "Occasional backache",
+    "Prognosis": [
+      "Full recovery expected within six months",
+      "No long-term damage expected"
+    ],
+    "Detected_Diseases": [
+      "pain",
+      "whiplash injury",
+      "tenderness",
+      "anxiety",
+      "long-term damage",
+      "backaches"
+    ],
+    "Detected_Chemicals": [],
+    "Keywords": [
+      "pain",
+      "whiplash injury",
+      "backaches",
+      "anxiety",
+      "tenderness",
+      "long-term damage",
+      "back pain",
+      "painkillers",
+      "a physical examination",
+      "any lingering pain",
+      "[Physical Examination Conducted",
+      "your recovery",
+      "a full recovery",
+      "worsening symptoms"
+    ],
+    "Summary": "Physician: That sounds like a strong impact. Were you wearing your seatbelt?\n\nPatient: Yes, I always do.\n\nPhysician: What did you feel immediately after the accident?\n\nPatient: At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away. Physician: That's encouraging. Let's go ahead and do a physical examination to check your mobility and any lingering pain. Physician: I understand you were in a car accident last September. Can you walk me through what happened?\n\nPatient: Yes, it was on September 1st, around 12:30 in the afternoon. Physician: Did you seek medical attention at that time?\n\nPatient: Yes, I went to Moss Bank Accident and Emergency. Physician: That makes sense. Are you still experiencing pain now?\n\nPatient: It's not constant, but I do get occasional backaches."
+  },
+  "Patient_Sentiment_Analysis": [
+    {
+      "Statement": "Good morning, doctor. I'm doing better, but I still have some discomfort now and then.",
+      "Sentiment": "Anxious",
+      "Intent": "Greeting"
+    },
+    {
+      "Statement": "Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front.",
+      "Sentiment": "Neutral",
+      "Intent": "Answering question"
+    },
+    {
+      "Statement": "Yes, I always do.",
+      "Sentiment": "Reassured",
+      "Intent": "Answering question"
+    },
+    {
+      "Statement": "At first, I was just shocked. But then I realized I had hit my head on the steering wheel, and I could feel pain in my neck and back almost right away.",
+      "Sentiment": "Anxious",
+      "Intent": "Reporting symptoms"
+    },
+    {
+      "Statement": "Yes, I went to Moss Bank Accident and Emergency. They checked me over and said it was a whiplash injury, but they didn't do any X-rays. They just gave me some advice and sent me home.",
+      "Sentiment": "Neutral",
+      "Intent": "Answering question"
+    },
+    {
+      "Statement": "The first four weeks were rough. My neck and back pain were really bad\u2014I had trouble sleeping and had to take painkillers regularly. It started improving after that, but I had to go through ten sessions of physiotherapy to help with the stiffness and discomfort.",
+      "Sentiment": "Anxious",
+      "Intent": "Reporting symptoms"
+    },
+    {
+      "Statement": "It's not constant, but I do get occasional backaches. It's nothing like before, though.",
+      "Sentiment": "Anxious",
+      "Intent": "Reporting symptoms"
+    },
+    {
+      "Statement": "No, nothing like that. I don't feel nervous driving, and I haven't had any emotional issues from the accident.",
+      "Sentiment": "Anxious",
+      "Intent": "Answering question"
+    },
+    {
+      "Statement": "I had to take a week off work, but after that, I was back to my usual routine. It hasn't really stopped me from doing anything.",
+      "Sentiment": "Neutral",
+      "Intent": "Reporting symptoms"
+    },
+    {
+      "Statement": "That's a relief!",
+      "Sentiment": "Reassured",
+      "Intent": "Reporting symptoms"
+    },
+    {
+      "Statement": "That's great to hear. So, I don't need to worry about this affecting me in the future?",
+      "Sentiment": "Anxious",
+      "Intent": "Seeking reassurance"
+    },
+    {
+      "Statement": "Thank you, doctor. I appreciate it.",
+      "Sentiment": "Reassured",
+      "Intent": "Expressing concern"
+    }
+  ],
+  "SOAP_Note": {
+    "Subjective": {
+      "Chief_Complaint": "Back pain, Stiffness, Head impact, Occasional backache, Neck pain, Discomfort, Trouble sleeping",
+      "History_of_Present_Illness": "Good morning, doctor. I'm doing better, but I still have some discomfort now and then. Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front."
+    },
+    "Objective": {
+      "Physical_Exam": "Everything looks good. Your neck and back have a full range of movement, and there's no tenderness or signs of lasting damage. Your muscles and spine seem to be in good condition.",
+      "Observations": "Patient appears matching description of recovery."
+    },
+    "Assessment": {
+      "Diagnosis": "Whiplash injury, pain, whiplash injury, tenderness, anxiety, long-term damage, backaches",
+      "Severity": "Occasional backache"
+    },
+    "Plan": {
+      "Treatment": "Ten physiotherapy sessions, Painkillers, No X-rays performed",
+      "Follow-Up": "Full recovery expected within six months, No long-term damage expected"
+    }
+  }
+}
