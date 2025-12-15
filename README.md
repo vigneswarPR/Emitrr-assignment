@@ -30,4 +30,10 @@ An AI system for medical transcription, NLP-based summarization, and sentiment a
   cd physician_notetaker
   python main.py
   ``` 
-
+main.py - Orchestrates the full pipeline from reading the transcript to saving JSON results
+nlp_pipeline.py - Extracts medical entities like diagnosis and treatment using scispacy and regex
+sentiment.py - Determines patient emotion and intent using a local transformer model
+soap_generator.py - Formats the extracted medical data into a standard SOAP note structure
+sample_transcript.txt - Contains the raw dialogue input between the physician and patient
+requirements.txt - Lists the Python libraries required to run the project
+output_results.json - Stores the final structured output including entities and the SOAP note
