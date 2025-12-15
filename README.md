@@ -1,1 +1,27 @@
 # Emitrr-assignment
+# Physician Notetaker
+
+An AI system for medical transcription, NLP-based summarization, and sentiment analysis of physician-patient conversations. This project extracts medical entities, classifies sentiment, and generates structured SOAP notes from transcripts.
+
+## Setup Instructions
+
+1. Install Python Dependencies
+
+   Run the following command:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Install Medical NLP Models
+
+   Install the scispacy medical entity recognition model:
+
+   ```bash
+   pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+   ```
+
+
+3. ```bash
+   pip install "transformers[torch]"
+   ```
