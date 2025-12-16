@@ -5,4 +5,4 @@ A-Current implementation uses a hybrid pipeline with scispacy for biomedical ent
 
 Q-What rule-based or deep-learning techniques would improve the accuracy of SOAP note generation?
 A- Negation (negspacy): A crucial accuracy upgrade. It uses dependency parsing rules to ensure that if a patient says "No chest pain", we do not extract 'chest pain' as a symptom. This fixes the most common NLP error (false positives).
-   Section-Specific Summarization**: Instead of summarizing the whole text, we only run pytextrank on the *Patient's turns* to generate the HPI (History of Present Illness). This ensures we don't accidentally include the Doctor's questions in the patient's history. 
+   Section-Specific Summarization: Instead of summarizing the whole text, we only run pytextrank on the Patient's turns to generate the HPI (History of Present Illness). This ensures we don't accidentally include the Doctor's questions in the patient's history. 
